@@ -3,89 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Digital Store</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-            color: #333;
-        }
-        .header {
-            background-color: #007bff;
-            color: white;
-            padding: 20px;
-            text-align: center;
-            font-size: 24px;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        .box {
-            background: white;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 8px;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            font-size: 16px;
-            color: white;
-            background: #007bff;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 10px;
-        }
-        .btn:hover {
-            background: #0056b3;
-        }
-        .footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+    <title>Mental Mosaic</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        📚 My Digital Store - Buy PDFs & Presentations
-    </div>
+    <header>
+        <h1>Welcome to Mental Mosaic</h1>
+        <p>Your mental wellness hub</p>
+    </header>
 
-    <div class="container">
-        <div class="box">
-            <h2>Welcome to My Store</h2>
-            <p>Find high-quality PDFs and presentations for your learning needs.</p>
+    <section id="about">
+        <h2>Who We Are</h2>
+        <p>Mental Mosaic is dedicated to providing mental health resources and support.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-box">
+            <h3>Modules</h3>
+            <p>Comprehensive learning materials.</p>
         </div>
-
-        <div class="box">
-            <h2>Available Products</h2>
-            <p>Click to download:</p>
-            <ul>
-                <li><a href="pdfs/module1.pdf" class="btn" download>📖 Module 1: Mental Health ($5)</a></li>
-                <li><a href="pdfs/stress_management.pdf" class="btn" download>💆 Stress Management Guide ($3)</a></li>
-                <li><a href="ppts/emotional_intelligence.pptx" class="btn" download>🎭 Emotional Intelligence PPT ($10)</a></li>
-            </ul>
+        <div class="service-box">
+            <h3>Presentations</h3>
+            <p>Engaging mental health presentations.</p>
         </div>
-
-        <div class="box">
-            <h2>Request a Custom Presentation</h2>
-            <p>Need something specific? Request a custom module!</p>
-            <a href="https://forms.gle/YOUR_GOOGLE_FORM_LINK" class="btn">Submit Request</a>
+        <div class="service-box">
+            <h3>PDFs</h3>
+            <p>Downloadable guides and resources.</p>
         </div>
-    </div>
+    </section>
 
-    <div class="footer">
-        &copy; 2024 My Digital Store | Contact: your-email@example.com
-    </div>
+    <footer>
+        <p>Contact us at youremail@example.com</p>
+    </footer>
 </body>
 </html>
